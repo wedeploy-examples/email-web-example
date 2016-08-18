@@ -17,7 +17,7 @@ we run
 2. Clone this repository:
 
 	```sh
-git clone https://github.com/wedeploy/boilerplate-email.git
+git clone -b js https://github.com/wedeploy/boilerplate-email.git
 cd boilerplate-email
 	```
 
@@ -30,7 +30,7 @@ we link
 4. Now your container is ready to be used:
 
 	```
-http://email.<projectID>.wedeploy.me
+http://emaildemo.wedeploy.me
 	```
 
 5. [Visit the documentation to learn how to start sending emails.](#)
@@ -46,7 +46,7 @@ http://email.<projectID>.wedeploy.me
 7. Once you see them in the Dashboard, your container will be ready to be used.
 
 	```
-http://email.<projectID>.wedeploy.io
+http://emaildemo.wedeploy.io
 	```
 
 8. [Visit the documentation to learn how to start sending emails.](#)

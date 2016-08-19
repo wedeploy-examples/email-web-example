@@ -1,4 +1,5 @@
 {
 	"id": "emaildemo",
-	"homeContainer": "hosting"
+	"homeContainer": "hosting",
+	"masterToken": "dummyMasterToken"
 }

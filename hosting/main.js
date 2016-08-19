@@ -5,18 +5,25 @@ form.addEventListener('submit', function(e) {
 
 	WeDeploy
 		.url('http://email.emaildemo.wedeploy.me/emails')
+		.auth('dummyMasterToken')
 		.form('from', form.from.value)
 		.form('to', form.to.value)
 		.form('subject', form.subject.value)
+		.form('message', form.subject.value)
 		.post()
 		.then(function(response) {
-			form.reset();
+			if (response.succeeded()) {
+				form.reset();
 
-			alert('Email sent! Wait a little bit until it arrives :)')
+				alert('Email sent! Wait a little bit until it arrives :)');
 
-			console.info('Email ID:', response.body());
+				console.info('Email ID:', response.body());
+			}
+			else {
+				alert('Email was not sent');
+			}
 		})
 		.catch(function(error) {
-			console.error(error);
+			alert('Ops, some error has happened.');
 		});
 });

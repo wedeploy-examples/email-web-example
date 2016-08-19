@@ -4,7 +4,7 @@ form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
 	WeDeploy
-		.url('http://email.emaildemo.wedeploy.io/emails')
+		.url('http://email.emaildemo.wedeploy.me/emails')
 		.form('from', form.from.value)
 		.form('to', form.to.value)
 		.form('subject', form.subject.value)

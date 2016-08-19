@@ -17,8 +17,8 @@ we run
 2. Clone this repository:
 
 	```sh
-git clone -b js https://github.com/wedeploy/boilerplate-email.git
-cd boilerplate-email
+git clone -b js https://github.com/wedeploy/boilerplate-email.git boilerplate-email-js
+cd boilerplate-email-js
 	```
 
 3. Link this container with the local infrastructure:

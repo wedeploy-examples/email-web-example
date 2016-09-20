@@ -4,7 +4,7 @@ form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
 	WeDeploy
-		.url('http://email.emaildemo.wedeploy.me/emails')
+		.url('http://email.boilerplate-email.wedeploy.io/emails')
 		.auth('dummyMasterToken')
 		.form('from', form.from.value)
 		.form('to', form.to.value)

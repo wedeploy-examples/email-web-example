@@ -24,6 +24,6 @@ form.addEventListener('submit', function(e) {
 			}
 		})
 		.catch(function(error) {
-			alert('Ops, some error has happened.');
+			alert('Oops, some error has happened.');
 		});
 });

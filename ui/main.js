@@ -5,7 +5,7 @@ form.addEventListener('submit', function(e) {
 
 	WeDeploy
 		.email('email-boilerplateemail.wedeploy.io')
-		.auth('5732bed5-1418-4b21-b524-5533f2d0bc2c')
+		.auth('073e93d6-7dcc-4df5-9a18-9dd121b92f50')
 		.from(form.from.value)
 		.to(form.to.value)
 		.subject(form.subject.value)
